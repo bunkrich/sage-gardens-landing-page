@@ -630,6 +630,10 @@ body {
   z-index: -1;
 }
 
+#hero picture {
+  width: 100%;
+}
+
 #hero img {
   width: 100%;
   height: 100%;

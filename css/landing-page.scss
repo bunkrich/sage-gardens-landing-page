@@ -13,7 +13,6 @@ body {
 }
 
 #branding {
-    // background: pink;
     --main-color: var(--teal);
     grid-row: 1 / 1;
     grid-column: 2 / 3;
@@ -22,12 +21,10 @@ body {
 
     h1 {
         font-family: Arial, Helvetica, sans-serif;
-        // font-size: 6vw;
         margin: 0;
     }
 
     h2 {
-        // font-size: 4.6vw;
         margin: 0;
     }
 }
@@ -37,8 +34,8 @@ body {
     grid-row: 3 / 5;
     grid-column: 2 / 3;
     z-index: -1;
-
-    img {
+picture { width: 100%;}
+   img {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -48,23 +45,19 @@ body {
 }
 
 #under-construction {
-    // background: yellow;
     grid-row: 3 / 4;
     grid-column: 2 / 3;
     align-self: center;
     justify-self: center;
-    // color: white;
     font-size: 1.5em;
     text-align: center;
     padding: .5em;
 }
 
 #contact {
-    // background: lightgreen;
     grid-row: 4 / 5;
     grid-column: 2 / 3;
     align-self: end;
-    // justify-self: end;
     padding: 1em;
     font-size: 1.3em;
 
@@ -77,22 +70,16 @@ body {
 
 @media screen and (min-width: 768px) {
     #branding {
-
-
         h1 {
-
             font-size: 6vw;
-
         }
 
         h2 {
             font-size: 4.6vw;
-
         }
     }
 
     #contact {
-
         justify-self: end;
     }
 }
