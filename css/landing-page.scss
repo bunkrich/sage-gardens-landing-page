@@ -85,3 +85,10 @@ body {
         justify-self: end;
     }
 }
+
+@supports (-webkit-overflow-scrolling: touch) {
+    body {
+        height: 100vh;
+        background: yellow;
+    }
+  }
