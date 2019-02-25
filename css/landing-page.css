@@ -696,10 +696,10 @@ body {
 @supports (-webkit-overflow-scrolling: touch) {
   body {
     height: 100vh;
-    background: tan;
-    -ms-grid-rows: max-content 5vmin 4fr 1fr 20vmin;
-        grid-template-rows: -webkit-max-content 5vmin 4fr 1fr 20vmin;
-        grid-template-rows: max-content 5vmin 4fr 1fr 20vmin;
+    background: lightcoral;
+    -ms-grid-rows: max-content 5vmin 4fr 1fr 30vmin;
+        grid-template-rows: -webkit-max-content 5vmin 4fr 1fr 30vmin;
+        grid-template-rows: max-content 5vmin 4fr 1fr 30vmin;
   }
 }
 /*# sourceMappingURL=landing-page.css.map */
