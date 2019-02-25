@@ -78,7 +78,6 @@ body {
 
         h2 {
             font-size: 4.6vw;
-            color: pink;
         }
     }
 
@@ -90,7 +89,6 @@ body {
 @supports (-webkit-overflow-scrolling: touch) {
     body {
         height: 100vh;
-        background: lightcoral;
         grid-template-rows: max-content 5vmin 4fr 1fr 30vmin;
     }
   }

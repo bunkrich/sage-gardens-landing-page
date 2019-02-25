@@ -685,7 +685,6 @@ body {
   }
   #branding h2 {
     font-size: 4.6vw;
-    color: pink;
   }
   #contact {
     -ms-grid-column-align: end;
@@ -696,7 +695,6 @@ body {
 @supports (-webkit-overflow-scrolling: touch) {
   body {
     height: 100vh;
-    background: lightcoral;
     -ms-grid-rows: max-content 5vmin 4fr 1fr 30vmin;
         grid-template-rows: -webkit-max-content 5vmin 4fr 1fr 30vmin;
         grid-template-rows: max-content 5vmin 4fr 1fr 30vmin;
