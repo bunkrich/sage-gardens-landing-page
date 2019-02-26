@@ -6,7 +6,7 @@ body {
     display: grid;
     grid-template-rows: max-content 5vmin 4fr 1fr 5vmin;
     margin: 0 5vmin;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Arial Narrow', 'Heebo', Arial, sans-serif;
     --teal: #738589;
     --main-color: white;
     color: var(--main-color);
@@ -19,6 +19,7 @@ body {
     color: var(--main-color);
     margin-top: 2em;
     text-transform: uppercase;
+
     h1 {
         font-family: Arial, Helvetica, sans-serif;
         margin: 0;
@@ -27,6 +28,7 @@ body {
     h2 {
         margin: 0;
         font-size: 1.63em;
+
         font-weight: 100;
         line-height: .8;
     }
@@ -91,7 +93,16 @@ body {
 
 @supports (-webkit-overflow-scrolling: touch) {
     body {
+        font-family: 'Heebo', sans-serif;
         height: 100vh;
         grid-template-rows: max-content 5vmin 4fr 1fr 30vmin;
     }
-  }
+
+    #branding {
+
+        h2 {
+            font-size: 1.45em;
+        }
+    }
+
+}

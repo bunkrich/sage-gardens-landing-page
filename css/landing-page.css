@@ -593,7 +593,7 @@ body {
       grid-template-rows: -webkit-max-content 5vmin 4fr 1fr 5vmin;
       grid-template-rows: max-content 5vmin 4fr 1fr 5vmin;
   margin: 0 5vmin;
-  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Arial Narrow', 'Heebo', Arial, sans-serif;
   --teal: #738589;
   --main-color: white;
   color: var(--main-color);
@@ -698,10 +698,14 @@ body {
 
 @supports (-webkit-overflow-scrolling: touch) {
   body {
+    font-family: 'Heebo', sans-serif;
     height: 100vh;
     -ms-grid-rows: max-content 5vmin 4fr 1fr 30vmin;
         grid-template-rows: -webkit-max-content 5vmin 4fr 1fr 30vmin;
         grid-template-rows: max-content 5vmin 4fr 1fr 30vmin;
+  }
+  #branding h2 {
+    font-size: 1.45em;
   }
 }
 /*# sourceMappingURL=landing-page.css.map */
