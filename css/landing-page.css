@@ -608,6 +608,7 @@ body {
   grid-column: 2 / 3;
   color: var(--main-color);
   margin-top: 2em;
+  text-transform: uppercase;
 }
 
 #branding h1 {
@@ -617,6 +618,9 @@ body {
 
 #branding h2 {
   margin: 0;
+  font-size: 1.63em;
+  font-weight: 100;
+  line-height: .8;
 }
 
 #hero {
@@ -684,7 +688,7 @@ body {
     font-size: 6vw;
   }
   #branding h2 {
-    font-size: 4.6vw;
+    font-size: 4.9vw;
   }
   #contact {
     -ms-grid-column-align: end;
