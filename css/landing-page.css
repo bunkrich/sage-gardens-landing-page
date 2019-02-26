@@ -594,6 +594,8 @@ body {
       grid-template-rows: max-content 5vmin 4fr 1fr 5vmin;
   margin: 0 5vmin;
   font-family: 'Arial Narrow', 'Heebo', Arial, sans-serif;
+  font-family: 'Heebo', Arial, sans-serif;
+  font-size: 1.1em;
   --teal: #738589;
   --main-color: white;
   color: var(--main-color);
@@ -614,11 +616,12 @@ body {
 #branding h1 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  font-size: 8vw;
 }
 
 #branding h2 {
   margin: 0;
-  font-size: 1.63em;
+  font-size: 5.8vw;
   font-weight: 100;
   line-height: .8;
 }
@@ -658,7 +661,6 @@ body {
       align-self: center;
   -ms-grid-column-align: center;
       justify-self: center;
-  font-size: 1.5em;
   text-align: center;
   padding: .5em;
 }
@@ -674,7 +676,6 @@ body {
       -ms-grid-row-align: end;
       align-self: end;
   padding: 1em;
-  font-size: 1.3em;
 }
 
 #contact a {
@@ -684,11 +685,14 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  body {
+    font-size: 1.5em;
+  }
   #branding h1 {
-    font-size: 6vw;
+    font-size: 5.65vw;
   }
   #branding h2 {
-    font-size: 4.9vw;
+    font-size: 4.1vw;
   }
   #contact {
     -ms-grid-column-align: end;
@@ -703,9 +707,6 @@ body {
     -ms-grid-rows: max-content 5vmin 4fr 1fr 30vmin;
         grid-template-rows: -webkit-max-content 5vmin 4fr 1fr 30vmin;
         grid-template-rows: max-content 5vmin 4fr 1fr 30vmin;
-  }
-  #branding h2 {
-    font-size: 1.45em;
   }
 }
 /*# sourceMappingURL=landing-page.css.map */
