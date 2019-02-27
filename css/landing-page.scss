@@ -22,7 +22,9 @@ body {
 #branding,
 #hero,
 #under-construction,
-#contact {
+#contact,
+#main,
+#no-hero {
     grid-column: 2 / 3;
 }
 
@@ -36,9 +38,11 @@ body {
     }
 }
 
-#hero {
+#hero,
+#no-hero {
     grid-row: 3 / 5;
     z-index: -1;
+    background: var(--teal);
 
     img {
         width: 100%;
@@ -48,7 +52,8 @@ body {
     }
 }
 
-#under-construction {
+#under-construction,
+#main {
     grid-row: 3 / 4;
     align-self: center;
     justify-self: center;
@@ -89,10 +94,10 @@ body {
 #branding,
 #hero,
 #under-construction,
-#contact {
+#contact,
+#main {
     color: var(--main-color);
 }
-
 
 #branding {
     --main-color: var(--teal);
@@ -142,6 +147,9 @@ body {
         h2 {
             font-size: 4.1vw;
         }
+    }
+    #main {
+        font-size: 1.5em;
     }
 }
 
