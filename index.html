@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="og:title" property="og:title" content="Sage Gardens | NYC">
   <meta property="og:url" content="http://www.sagegardensnyc.com/" />
-<meta property="og:image" content="http://www.sagegardensnyc.com/img/Logo.jpg" />
+  <meta property="og:image" content="http://www.sagegardensnyc.com/img/Logo.jpg" />
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
@@ -18,6 +18,18 @@
   <link rel="stylesheet" href="css/landing-page.css">
   <link href="https://fonts.googleapis.com/css?family=Heebo:100,400" rel="stylesheet">
   <meta name="theme-color" content="#fafafa">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135264558-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+  
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+  
+      gtag('config', 'UA-135264558-1');
+    </script>
 </head>
 
 <body>
@@ -41,10 +53,8 @@
   </footer>
   <div id="hero">
 
-          <picture>
-              <img
-              sizes="100vw"
-              srcset="
+    <picture>
+      <img sizes="100vw" srcset="
               img/Landing_page_zzmyk8_c_scale,w_200.jpg 200w,
               img/Landing_page_zzmyk8_c_scale,w_372.jpg 372w,
               img/Landing_page_zzmyk8_c_scale,w_496.jpg 496w,
@@ -62,14 +72,13 @@
               img/Landing_page_zzmyk8_c_scale,w_1371.jpg 1371w,
               img/Landing_page_zzmyk8_c_scale,w_1397.jpg 1397w,
               img/Landing_page_zzmyk8_c_scale,w_1400.jpg 1400w"
-              src="img/landing-page1.jpg"
-              alt="grass">
-              </picture>
-  
+        src="img/landing-page1.jpg" alt="grass">
+    </picture>
+
   </div>
 
 
-<!-- 
+  <!-- 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
@@ -90,17 +99,9 @@
     ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script> -->
-  
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135264558-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-135264558-1');
-</script>
+
 </body>
 
 </html>
