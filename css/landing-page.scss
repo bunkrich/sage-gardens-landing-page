@@ -15,6 +15,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-rows: max-content 5vmin 4fr 1fr 5vmin;
+    grid-template-columns: 1fr 90vw 1fr;
     margin: 0 5vmin;
 }
 
