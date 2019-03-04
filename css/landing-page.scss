@@ -2,6 +2,7 @@
 @import 'main';
 $teal: #738589;
 
+
 @supports (display: grid) and (color: var(--color)) {
     :root {
         --teal: #738589;
@@ -148,6 +149,7 @@ body {
             font-size: 4.1vw;
         }
     }
+
     #main {
         font-size: 1.5em;
     }
