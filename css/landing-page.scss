@@ -14,18 +14,18 @@ $teal: #738589;
 // 🔴🔴🔴 LAYOUT 🔴🔴🔴
 body {
     height: 100vh;
-
     display: grid;
     grid-template-rows: max-content 5vmin 4fr 1fr 5vmin;
     grid-template-columns: 1fr 90vw 1fr;
     margin: 0 5vmin;
 }
-@media (pointer: coarse) {
-    body{
-        height: calc(var(--vh, 1vh) * 100);
 
+@media (pointer: coarse) {
+    body {
+        height: calc(var(--vh, 1vh) * 100);
     }
 }
+
 #branding,
 #hero,
 #under-construction,
