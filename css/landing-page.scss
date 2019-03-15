@@ -132,6 +132,9 @@ body {
         color: var(--main-color);
         text-decoration: none;
         font-style: normal;
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 
