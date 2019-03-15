@@ -604,12 +604,6 @@ body {
   margin: 0 5vmin;
 }
 
-@media (pointer: coarse) {
-  body {
-    height: calc(var(--vh, 1vh) * 100);
-  }
-}
-
 #branding,
 #hero,
 #under-construction,
