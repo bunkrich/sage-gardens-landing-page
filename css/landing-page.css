@@ -728,6 +728,8 @@ body {
 }
 
 #contact a {
+  display: block;
+  margin: .25em;
   color: var(--main-color);
   text-decoration: none;
   font-style: normal;
