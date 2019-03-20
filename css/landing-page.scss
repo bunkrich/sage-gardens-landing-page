@@ -1,7 +1,7 @@
 @import 'normalize';
 @import 'main';
+@import '_contact-form';
 $teal: #738589;
-
 
 @supports (display: grid) and (color: var(--color)) {
     :root {
@@ -9,6 +9,7 @@ $teal: #738589;
         --main-color: white;
     }
 }
+
 
 
 // 🔴🔴🔴 LAYOUT 🔴🔴🔴
@@ -159,7 +160,7 @@ body {
             text-decoration: underline;
         }
         @media (pointer: coarse) {
-            margin: .5em;
+            margin: .7em;
         }
     }
 }
