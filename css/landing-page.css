@@ -834,6 +834,13 @@ body {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 767px) {
+  #contact a {
+    font-size: 1.2em;
+    padding: .6em 0;
+  }
+}
+
 @media (pointer: coarse) {
   #contact a {
     font-size: 1.2em;
