@@ -824,7 +824,7 @@ body {
 
 #contact a {
   display: block;
-  margin: .25em;
+  padding: .25em;
   color: var(--main-color);
   text-decoration: none;
   font-style: normal;
@@ -836,7 +836,8 @@ body {
 
 @media (pointer: coarse) {
   #contact a {
-    margin: 1em;
+    font-size: 1.2em;
+    padding: .6em 0;
   }
 }
 
