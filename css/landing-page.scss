@@ -19,6 +19,7 @@ body {
     grid-template-rows: max-content 5vmin 4fr 1fr 5vmin;
     grid-template-columns: 1fr 90vw 1fr;
     margin: 0 5vmin;
+    // min-width: 320px;
 }
 
 #branding,
@@ -207,5 +208,17 @@ body {
     h1,
     h2 {
         color: $teal;
+    }
+}
+
+@media all and (max-width: 360px) {
+    body {
+        grid-template-columns: auto auto auto;
+    }
+
+    #contact a {
+        font-size: 1rem;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
     }
 }

@@ -873,4 +873,16 @@ body {
     color: #738589;
   }
 }
+
+@media all and (max-width: 360px) {
+  body {
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+  }
+  #contact a {
+    font-size: 1rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+}
 /*# sourceMappingURL=landing-page.css.map */
